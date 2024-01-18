@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    min-height: 300px;
+    background-color: aqua;
+    padding: 50px;
+    width:30%;
+    box-shadow: 10px 10px whitesmoke;
+    background-image: conic-gradient(red,yellow, green);
+}
+h1{
+    color:rgb(12, 104, 80);
+}
+.field{
+    padding-left: 30px;
+    margin: 40px;
+}
+.input{
+    height: 35px;
+    width:100%;
+    color: brown;
+    border:none;
+
+    background-color:whitesmoke;
+    
+}
+.input:hover{
+    height: 35px;
+    width:100%;
+    color: brown;
+    border:none;
+    background-color:rgb(126, 108, 108)
+    
+}
+.input1{
+    height: 30px;
+    width:40%;
+}
+input[type="submit"]
+{
+    color:aqua;
+    background-color: rgb(109, 68, 15);
+}
